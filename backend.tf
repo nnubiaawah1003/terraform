@@ -1,10 +1,10 @@
 #  terraform {
 #    backend "s3" {
-#     bucket = "avinash-terraform-state"
-#     key    = "state.tfstate"
-#     region = "us-west-2"
-#     profile = "jespo"
-# dynamodb_table= "firstprojecttable"
+#     bucket = "rolox-bucket-20220716"
+#     key    = "project-1.tfstate"
+#     region = "us-east-1"
+#     profile = "default"
+# dynamodb_table= "Terraform-Table"
 #    }
 #  }
 
